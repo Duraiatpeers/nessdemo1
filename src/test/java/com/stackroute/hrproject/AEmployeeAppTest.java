@@ -61,7 +61,7 @@ public class AEmployeeAppTest {
 		assertTrue(emplist.size() == 3);
 		assertTrue(emplist.get(0).getEmpid().equals("e001"));
 		assertTrue(emplist.get(1).getEmpid().equals("e002"));
-		assertTrue(emplist.get(2).getEmpid().equals("e003"));'
+		assertTrue(emplist.get(2).getEmpid().equals("e003"));
 				assertTrue(emplist.size() == 3);
 		assertTrue(emplist.size() == 5);
 		assertEquals(1,2);			
