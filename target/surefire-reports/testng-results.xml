@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-11T15:16:55 IST" name="EmployeeAppAutomationsuite" finished-at="2023-01-11T15:16:55 IST" duration-ms="37">
+    <groups>
+    </groups>
+    <test started-at="2023-01-11T15:16:55 IST" name="FullTest" finished-at="2023-01-11T15:16:55 IST" duration-ms="37">
+      <class name="com.stackroute.hrproject.AEmployeeAppTest">
+        <test-method is-config="true" signature="initsuite()[pri:0, instance:com.stackroute.hrproject.AEmployeeAppTest@2892dae4]" started-at="2023-01-11T15:16:55 IST" name="initsuite" finished-at="2023-01-11T15:16:55 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsuite -->
+        <test-method is-config="true" signature="inittest()[pri:0, instance:com.stackroute.hrproject.AEmployeeAppTest@2892dae4]" started-at="2023-01-11T15:16:55 IST" name="inittest" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inittest -->
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.stackroute.hrproject.AEmployeeAppTest@2892dae4]" started-at="2023-01-11T15:16:55 IST" name="setUpBeforeClass" finished-at="2023-01-11T15:16:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method signature="testEAddEmployee()[pri:0, instance:com.stackroute.hrproject.AEmployeeAppTest@2892dae4]" started-at="2023-01-11T15:16:55 IST" name="testEAddEmployee" finished-at="2023-01-11T15:16:55 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEAddEmployee -->
+      </class> <!-- com.stackroute.hrproject.AEmployeeAppTest -->
+      <class name="com.stackroute.hrproject.BEmployeeAppTest">
+        <test-method is-config="true" signature="initsuite()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="initsuite" finished-at="2023-01-11T15:16:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsuite -->
+        <test-method is-config="true" signature="inittest()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="inittest" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inittest -->
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="setUpBeforeClass" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="setUp" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCAddEmployee()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="testCAddEmployee" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCAddEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="tearDown" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="setUp" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDgetAllEmployees()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="testDgetAllEmployees" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDgetAllEmployees -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="tearDown" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownAfterClass()[pri:0, instance:com.stackroute.hrproject.BEmployeeAppTest@6a6afff2]" started-at="2023-01-11T15:16:55 IST" name="tearDownAfterClass" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- com.stackroute.hrproject.BEmployeeAppTest -->
+      <class name="com.stackroute.hrproject.CEmployeeAppTest">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.stackroute.hrproject.CEmployeeAppTest@1649b0e6]" started-at="2023-01-11T15:16:55 IST" name="setUpBeforeClass" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method signature="testAddEmployee()[pri:0, instance:com.stackroute.hrproject.CEmployeeAppTest@1649b0e6]" started-at="2023-01-11T15:16:55 IST" name="testAddEmployee" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmployee -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.stackroute.hrproject.CEmployeeAppTest@1649b0e6]" started-at="2023-01-11T15:16:55 IST" name="setUp" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stackroute.hrproject.CEmployeeAppTest@1649b0e6]" started-at="2023-01-11T15:16:55 IST" name="tearDown" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stackroute.hrproject.CEmployeeAppTest@1649b0e6]" started-at="2023-01-11T15:16:55 IST" name="tearDown" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testBgetAllEmployees()[pri:0, instance:com.stackroute.hrproject.CEmployeeAppTest@1649b0e6]" started-at="2023-01-11T15:16:55 IST" name="testBgetAllEmployees" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBgetAllEmployees -->
+        <test-method is-config="true" signature="tearDownAfterClass()[pri:0, instance:com.stackroute.hrproject.CEmployeeAppTest@1649b0e6]" started-at="2023-01-11T15:16:55 IST" name="tearDownAfterClass" finished-at="2023-01-11T15:16:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.stackroute.hrproject.CEmployeeAppTest@1649b0e6]" started-at="2023-01-11T15:16:55 IST" name="setUp" finished-at="2023-01-11T15:16:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.stackroute.hrproject.CEmployeeAppTest -->
+    </test> <!-- FullTest -->
+  </suite> <!-- EmployeeAppAutomationsuite -->
+</testng-results>

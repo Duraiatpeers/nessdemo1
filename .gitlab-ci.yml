@@ -1,0 +1,23 @@
+image: "maven:3.3.9-jdk-8"
+
+stages:
+  - clean
+  - compile
+  - test
+  - pack
+
+maven-clean:
+  stage: clean
+  script: "mvn clean"
+
+maven-compile:
+  stage: compile
+  script: "mvn compile"
+
+maven-test:
+  stage: test
+  script: "mvn test"  
+
+maven-package:
+  stage: pack
+  script: "mvn package -DskipTests"  

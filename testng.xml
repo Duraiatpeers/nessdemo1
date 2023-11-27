@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EmployeeAppAutomationsuite">
+
+  <test thread-count="5" name="FullTest">
+    <classes>
+  
+       <class name="com.stackroute.hrproject.AEmployeeAppTest">
+       		<methods>
+       			<include name="testEAddEmployee"></include>
+       		</methods>
+       </class>
+       
+       <class name="com.stackroute.hrproject.BEmployeeAppTest"/>
+      <class name="com.stackroute.hrproject.CEmployeeAppTest"/>
+      
+          
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+
+
+<!-- 
+
+Parallel execution can be set at the method, classes and test
+
+ -->
