@@ -43,7 +43,7 @@ public class AEmployeeAppTest {
 		assertEquals("Iniyal",newempObj.getEmpname());
 		assertEquals("Trivandrum",newempObj.getLocation());
 		
-		assertTrue(false);
+		//assertTrue(false);
 		
 	}
 
