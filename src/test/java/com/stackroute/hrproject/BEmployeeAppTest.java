@@ -64,7 +64,7 @@ public class BEmployeeAppTest {
 		assertEquals("e001",newempObj.getEmpid());
 		assertEquals("Iniyal",newempObj.getEmpname());
 		assertEquals("Trivandrum",newempObj.getLocation());
-		
+		assertTrue(false);	
 	}
 
 	@Test
@@ -82,6 +82,7 @@ public class BEmployeeAppTest {
 		assertTrue(emplist.get(0).getEmpid().equals("e001"));
 		assertTrue(emplist.get(1).getEmpid().equals("e002"));
 		assertTrue(emplist.get(2).getEmpid().equals("e003"));
+		assertTrue(false);
 			
 	}
 	
