@@ -31,5 +31,14 @@ pipeline {
          always{
             echo 'Execution completed'
          }
+        
+         success{
+            echo 'Successful execution'
+         }
+
+        
+         failure{
+            echo 'Failed execution '
+         }
     }       
 }
