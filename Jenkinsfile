@@ -39,7 +39,7 @@ pipeline {
         
          failure{
             echo 'Failed execution '
-            emailext body:'Test message for failures'  subject:'${BUILD_NUMBER}-${JOB_NAME}'  to:'duraiatpeers@gmail.com'
+            emailext body:'Test message for failures',subject:'${BUILD_NUMBER}-${JOB_NAME}',to:'duraiatpeers@gmail.com'
          }
     }       
 }
