@@ -51,6 +51,7 @@ public class CEmployeeAppTest {
 		assertEquals("e001",newempObj.getEmpid());
 		assertEquals("Iniyal",newempObj.getEmpname());
 		assertEquals("Trivandrum",newempObj.getLocation());
+			assertTrue(false);
 		
 	}
 
