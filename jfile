@@ -1,0 +1,54 @@
+pipeline {
+
+    agent any
+
+    environment {
+         NEW_VERSION = '1.0.1'
+         userdata = credentials('id')
+    }
+
+    parameters{
+        string(name:'VERSION', defaultValue:'1.0.0', description)
+        choice(name:'VERSION', choices:['1.0',1.1], description='list of versions')
+        boolean(name:'check', defaultValue:true, description='boolean value for check')
+        
+    }
+    tools {
+        maven "Maven 3.9.3"
+    }
+
+    stages {
+        stage('clean') {
+            when{
+                expression{
+                    BRANCH_NAME=='master' && params.check
+                }
+            
+            }
+            
+            steps {
+                echo 'clean successful'
+                echo "New version ${NEW_VERSION}"
+                bat 'mvn clean'
+            }
+        }
+        stage('compile') {
+            steps {
+                echo 'compile done'
+                bat 'mvn compile'
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'test done'
+                bat 'mvn test'
+            }
+        }
+    }
+
+    post{
+         always{
+            echo 'Execution completed'
+         }
+    }       
+}
