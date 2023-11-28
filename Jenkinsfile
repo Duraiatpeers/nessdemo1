@@ -39,7 +39,8 @@ pipeline {
         
          failure{
             echo 'Failed execution '
-            emailext body:'Test message for failures',subject:'${BUILD_NUMBER}-${JOB_NAME}',to:'duraiatpeers@gmail.com'
+            emailext attachLog: true, mimeType: 'text/html', body:'Test message for failures',subject:'${BUILD_NUMBER}-${JOB_NAME}',to:'duraiatpeers@gmail.com'
+             
          }
     }       
 }
